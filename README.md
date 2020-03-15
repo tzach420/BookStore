@@ -31,8 +31,8 @@ Syntax - logout
 1.open terminal in Server directory<br/>
 2.type 'mvn compile'<br/>
 3.choose the server you want:<br/>
-Thread per client server: mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.stomp.StompServer" -Dexec.args="<port> tpc"<br/>
-Reactor server: mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.stomp.StompServer" -Dexec.args="<port> reactor"<br/>
+Thread per client server: mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.stomp.StompServer" -Dexec.args="{port} tpc"<br/>
+Reactor server: mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.stomp.StompServer" -Dexec.args="{port} reactor"<br/>
 - Client:<br/>
   1.open terminal in Client directory.<br/>
   2. type: make
