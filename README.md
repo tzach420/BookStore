@@ -34,7 +34,7 @@ Syntax - logout
 Thread per client server: mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.stomp.StompServer" -Dexec.args="{port} tpc"<br/>
 Reactor server: mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.stomp.StompServer" -Dexec.args="{port} reactor"<br/>
 - Client:<br/>
-make sure you have boost install.
+make sure you have boost install.<br/>
   1.open terminal in Client directory.<br/>
   2. type: make
   
