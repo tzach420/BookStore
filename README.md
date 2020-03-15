@@ -36,5 +36,5 @@ Reactor server: mvn exec:java -Dexec.mainClass="bgu.spl.net.impl.stomp.StompServ
 - Client:<br/>
 make sure you have boost install.<br/>
   1.open terminal in Client directory.<br/>
-  2. type: make
+  2. type 'make'
   
